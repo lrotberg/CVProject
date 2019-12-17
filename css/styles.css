@@ -72,6 +72,12 @@ body {
   display: inline-block;
 }
 
+.details2 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
 .section-header {
   font-size: 1.7em;
   font-weight: 700;
@@ -97,4 +103,8 @@ body {
 .company-icon {
   width: 32px;
   height: 32px;
+}
+
+.skill-type {
+  margin-bottom: 0.1rem !important;
 }
